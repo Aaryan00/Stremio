@@ -1,12 +1,12 @@
+**Hello Friends  
+Thank you for having interest in this repository !**
+
 ### `About`
 A Video Sharing Platform Built with MERN stack and cloudinary for resources.
 You can watch videos uploaded by other users,like and comment on their video and you can upload your own 
 videos with title and description and many other features.
 
 ### `Process for Setting up the project locally`
-
-Hello, My Friends  
-Thank you for having interest in this repository !
 
 To use this application,
 
