@@ -1,0 +1,157 @@
+.myCtnn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  padding-left: 45px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.myCtnn header {
+  color: #ff0099;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.row {
+  height: 100%;
+}
+.myCardd {
+  margin: -350px 20px 0px 0px;
+  position: relative;
+  background: #fff;
+  height: 120%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.myCtnn .myInput {
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  border-bottom: 2px solid #b721ff;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.myCtnn .myInput2 {
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  border-bottom: 2px solid #b721ff;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  margin-bottom: -12px;
+}
+.myCtnn .myInput:focus {
+  outline: none;
+}
+.myForm {
+  position: relative;
+  margin-top: 50px;
+}
+.myCtnn .butt {
+  background: linear-gradient(19deg, #b721ff, #1a52f9 94%);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+}
+.myCtnn .butt:hover {
+  background: linear-gradient(19deg, #1a52f9, #b721ff 64%);
+}
+.myCtnn .butt:focus {
+  outline: none;
+}
+.myCtnn .fas {
+  position: relative;
+  color: #bb36fd;
+  left: 36px;
+}
+.myCtnn .signup_butt {
+  font-size: 20px;
+  color: cadetblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  margin: 15px 0 15px 0;
+}
+.myCtnn .signup_butt a {
+  font-size: 20px;
+  color: cadetblue;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+.myCtnn .signup_butt a:hover {
+  color: #ff0091;
+}
+.myCtnn .forgot_pass a {
+  color: red;
+}
+.myCtnn .forgot_pass {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.myCtnn .forgot_pass:hover {
+  color: #4f629c;
+}
+.myCtnn .login_img img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -150px;
+  left: 100px;
+  border-radius: 50%;
+  margin-top: 5%;
+  z-index: 999;
+}
+
+.social_icon img {
+  width: 35px;
+  height: 35px;
+}
+
+@media(max-width: 1500px){
+  .myCardd {
+    margin: -230px 0px 0px 0px;
+  }
+}
+
+@media(max-width: 1200px){
+  .myCardd {
+    margin: -130px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .myCtnn {
+    height: 500px;
+  }
+  .myCardd {
+    margin: -30px 0px 0px 0px;
+  }
+}

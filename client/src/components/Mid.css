@@ -1,0 +1,33 @@
+.mid-container {
+  padding-top: 70px;
+  min-height: calc(100vh - 80px);
+}
+
+.container {
+  margin-bottom: 20%;
+}
+
+.register-button {
+  text-align: center;
+  margin-bottom: 4%;
+}
+@media (max-width: 767px) {
+  .myCtn {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .mid-container {
+    min-height: calc(100vh - 80px);
+  }
+  .register {
+    margin-bottom: 20%;
+  }
+  .container {
+    margin-bottom: 20%;
+  }
+  .row {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+}

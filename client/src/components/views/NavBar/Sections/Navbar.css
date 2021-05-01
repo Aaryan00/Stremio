@@ -1,0 +1,342 @@
+@import "~antd/dist/antd.css";
+
+.menu {
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  /* box-shadow: 0 0 30px red; */
+  background-color: white;
+}
+
+.menu__logo {
+  width: 130px;
+  float: left;
+  /* margin: 0px 0px 0px 70px; */
+}
+
+.menu__logo a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 20px;
+}
+
+.menu__container .ant-menu-item {
+  padding: 0px 5px;
+}
+
+.menu__container .ant-menu-submenu-title {
+  padding: 10px 20px;
+}
+
+.menu__container .ant-menu-item a,
+.menu__container .ant-menu-submenu-title a {
+  padding: 10px 15px;
+}
+
+.menu__container .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.menu__container .menu_left {
+  float: left;
+}
+
+.menu__container .menu_rigth {
+  float: right;
+}
+
+.menu__mobile-button {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none !important; /* use of important to overwrite ant-btn */
+  background: #3e91f7;
+}
+
+.menu_drawer .ant-drawer-body {
+  padding: 0 !important;
+}
+
+/* align header of Drawer with header of page */
+.menu_drawer .ant-drawer-header {
+  padding: 14px 24px !important;
+}
+
+.home-img:hover {
+  background-color: #ecf2fa;
+}
+
+/* Search box */
+
+.autocomplete {
+  margin: 14px 0px 10px 30px;
+  position: relative;
+  display: inline-block;
+}
+
+#myInput {
+  border: 1px solid rgb(247, 239, 239);
+  background-color: #f1f1f1;
+  padding: 6px 6px 6px 12px;
+  font-size: 16px;
+  width: 300px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+#myInput:focus {
+  outline: none;
+}
+
+#myInput::placeholder {
+  color: black;
+  padding-left: 15px;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.search {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+  padding: 9.5px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+/* ////////////////////////////////////////////////////// */
+@media (max-width: 1300px) {
+  .autocomplete {
+    margin: 10px 0px 10px 100px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #myInput {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 5px;
+    font-size: 16px;
+    width: 500px;
+  }
+
+  .search {
+    background-color: DodgerBlue;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+  }
+
+  .menu__logo a {
+    margin-left: -20px;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .autocomplete {
+    margin: 10px 0px 10px 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #myInput {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    /* padding: 7px; */
+    font-size: 16px;
+    width: 400px;
+  }
+
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+  }
+
+  .menu__logo a {
+    margin-left: -20px;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .autocomplete {
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #myInput {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    /* padding: 7px; */
+    font-size: 16px;
+    width: 270px;
+  }
+
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+  }
+
+  .menu__logo a {
+    margin-left: -10px;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .autocomplete {
+    margin: 10px 0px 10px -10px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #myInput {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    width: 220px;
+  }
+
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+  }
+
+  .menu__logo a {
+    margin-left: -20px;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .autocomplete {
+    margin: 10px 0px 10px -49px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #myInput {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    width: 130px;
+  }
+
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+  }
+
+  .menu__logo a {
+    margin-left: -40px;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+} 
+
+@media (max-width: 320px) {
+  .autocomplete {
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #myInput {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 6px;
+    font-size: 16px;
+    width: 130px;
+  }
+
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+  }
+
+  .menu__logo a {
+    display: none;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,149 @@
+.newPlaylist {
+  cursor: pointer;
+  padding: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: rgb(8, 71, 206);
+  box-shadow: 3px 1px 10px #684096;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.Plus {
+  font-size: 20px;
+}
+
+.NewVideos {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: -15px;
+  font-weight: 600;
+}
+
+.addvideos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn-container {
+  margin-top: 10px;
+}
+
+.toggle {
+  float: left;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  background: #cececc;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  /* auto, since non-WebKit browsers doesn't support input styling */
+  margin: auto 10px;
+  border: 1px solid #87e0fd; /* Mobile Safari */
+  -webkit-appearance: none;
+  /*-moz-appearance: none;*/
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: none;
+
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.toggle:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(155, 155, 255, 0.2);
+  box-shadow: 0px 0px 3px 3px rgba(155, 155, 255, 0.2);
+}
+
+.toggle:checked {
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(155, 155, 255, 0.2);
+  box-shadow: 0px 0px 10px 3px rgb(74, 156, 223);
+}
+.toggle:after {
+  content: "";
+  text-shadow: 0 -1px 0 #bfbfbf;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: auto;
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.toggle:checked:after {
+  color: #85ada7;
+  text-shadow: 0 1px 0 #669991;
+
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(155, 155, 255, 0.2);
+  box-shadow: 0px 0px 1px 1px rgba(155, 155, 255, 0.2);
+
+  background: #87e0fd; /* Old browsers */
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #87e0fd 0%,
+    #53cbf1 40%,
+    #05abe0 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, #87e0fd),
+    color-stop(40%, #53cbf1),
+    color-stop(100%, #05abe0)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #87e0fd 0%,
+    #53cbf1 40%,
+    #05abe0 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    #87e0fd 0%,
+    #53cbf1 40%,
+    #05abe0 100%
+  ); /* Opera 12+ */
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    #87e0fd 0%,
+    #53cbf1 40%,
+    #05abe0 100%
+  ); /* IE10+ */
+  background: radial-gradient(
+    ellipse at center,
+    #87e0fd 0%,
+    #53cbf1 40%,
+    #05abe0 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.scrollable-element {
+  scrollbar-color: #87e0fd rgb(255, 252, 255); /* red is for the thumb and yellow is for the track */
+}

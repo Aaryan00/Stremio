@@ -1,0 +1,57 @@
+.postPage {
+  padding: 1rem 4em 3rem;
+}
+
+/* comment styling */
+.comment-button {
+  width: 29%;
+  height: 52px;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+.reply-button {
+  width: 15%;
+  height: 52px;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+.videoStyle {
+  max-height: 450px;
+}
+@media (min-width: 770px) {
+  .detail-line {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .postPage {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+  }
+  .detail-side-video {
+    width: 100vw;
+    padding: 1% 1%;
+  }
+  .videoStyle {
+    border: 1px solid black;
+    max-height: 55vh;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .content {
+    display: "block";
+  }
+}
+@media (max-width: 400px) {
+  .comment-button {
+    width: 30%;
+  }
+
+  .reply-button {
+    width: 30%;
+  }
+}

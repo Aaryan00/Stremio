@@ -1,0 +1,191 @@
+.new_playlist {
+    cursor: pointer;
+    padding: 10px;
+    width: 170px;
+    background-color: rgb(8, 71, 206);
+    box-shadow:  3px 1px 10px #684096;
+    color: white;
+}
+
+.Add {
+    font-size: 20px;
+}
+
+.textnew {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: -15px;
+    font-weight: 600;
+}
+
+.duration {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    margin: 4px;
+    color: #fff;
+    background-color: rgba(17, 17, 17, 0.8);
+    opacity: 0.8;
+    padding: 2px 4px;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.videosorplaylist {
+    display: flex;
+    letter-spacing: 2;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.titlevideos {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.titlevideos:hover {
+    color: black;
+}
+
+.titleplaylist {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.titleplaylist:hover {
+    color: black;
+}
+
+.active {
+    box-shadow:  3px 1px 15px #888888;
+    color: black;
+}
+
+#playlist_name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.side-thumbnail {
+    height: 172px;
+    width:  35%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgba(65, 65, 65, 0.8);
+    opacity: 0.8;
+    padding: 2px 4px;
+    letter-spacing: 0.5px;
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* User Data css */
+
+.image {
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.icon {
+    position: relative;
+    margin: -70px 10px 0px 0px;
+    opacity: 0;
+    font-size: 30px;
+}
+
+.avatar:hover + .icon {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.avatar:hover {
+    opacity: 0.5;
+    transition:opacity 1s;
+}
+
+.icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icon:hover .avatar {
+    opacity: 0.5;
+}
+
+@media(max-width: 530px) {
+    .videosorplaylist {
+        /* letter-spacing: 0; */
+        font-size: 15px;
+    }
+
+    /* .titleplaylist {
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .titlevideos {
+        padding: 0px;
+        cursor: pointer;
+    }
+    
+    
+    .active {
+        box-shadow:  1px 1px 8px #888888;
+        color: black;
+    } */
+}
+
+@media(max-width: 400px) {
+    .videosorplaylist {
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .titleplaylist {
+        padding: 8px;
+        margin-left: 7px;
+    }
+
+    .titlevideos {
+        padding: 8px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 300px) {
+    .videosorplaylist {
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .titleplaylist {
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .titlevideos {
+        padding: 0px;
+        cursor: pointer;
+    }
+    
+    
+    .active {
+        box-shadow:  1px 1px 8px #888888;
+        color: black;
+    }
+}

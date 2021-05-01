@@ -1,0 +1,33 @@
+.main {
+  margin: 20px 00px 0px 20px;
+}
+
+.hashtag {
+  color: dodgerblue;
+  margin: 60px 0px 5px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hashtag:hover {
+  color: rgb(63, 243, 189);
+  font-size: 23px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.current {
+    color: rgb(31, 1, 100);
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 400px) {
+  .hashtag {
+    color: dodgerblue;
+    margin: 60px 20px 5px -10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,185 @@
+.myCtn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  padding-left: 45px;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.myCtn header {
+  color: #ff0099;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.row {
+  height: 100%;
+}
+.myCard {
+  margin: -180px 0px 0px 0px;
+  position: relative;
+  background: rgb(48, 47, 47);
+  height: 120%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.myCtn .myInput {
+  width: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  border-bottom: 2px solid #b721ff;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.myCtn .myInput:focus {
+  outline: none;
+}
+.myForm {
+  position: relative;
+  margin-top: 50px;
+}
+.myCtn .butt {
+  background: linear-gradient(19deg, #b721ff, #1a52f9 94%);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+}
+.myCtn .butt:hover {
+  background: linear-gradient(19deg, #1a52f9, #b721ff 64%);
+}
+.myCtn .butt:focus {
+  outline: none;
+}
+.myCtn .fas {
+  position: relative;
+  color: #bb36fd;
+  left: 36px;
+}
+.myCtn .signup_butt {
+  font-size: 20px;
+  color: cadetblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  margin: 15px 0 15px 0;
+}
+.myCtn .signup_butt a {
+  font-size: 20px;
+  color: cadetblue;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+.myCtn .signup_butt a:hover {
+  color: #ff0091;
+}
+.myCtn .forgot_pass a {
+  color: red;
+}
+.myCtn .forgot_pass {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+  text-decoration: none;
+}
+.myCtn .forgot_pass:hover {
+  color: #4f629c;
+}
+.myCtn .login_img img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -150px;
+  left: 95px;
+  border-radius: 50%;
+  margin-top: 5%;
+  z-index: 999;
+}
+
+.social_icon img {
+  width: 35px;
+  height: 35px;
+}
+
+/* Media Queries */
+
+@media(max-width: 1500px) {
+  .myCard{
+    margin: -70px 0px 0px 0px;
+  }
+}
+
+@media(max-width: 1150px) {
+  .myCard{
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media (max-height: 870px) {
+  .container {
+    padding-top: 24%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .myCard {
+    margin: 160px 0px 0px 0px;
+  }
+}
+@media (max-height: 650px) {
+  .container {
+    padding-top: 85%;
+  }
+}
+
+@media (max-width: 400px) {
+  .myCtn .login_img img {
+    top: -150px;
+    left: 110px;
+  }
+  .myCard {
+    margin: 170px 0px 0px 0px;
+  }
+  .myCtn .myInput {
+    width: 250px;
+  }
+  .myCtn{
+    padding: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .myCtn .login_img img {
+    top: -150px;
+    left: 80px;
+  }
+  .myCard {
+    margin: 200px 0px -10px 0px;
+  }
+  .myCtn .myInput {
+    width: 90%;
+  }
+}
+
